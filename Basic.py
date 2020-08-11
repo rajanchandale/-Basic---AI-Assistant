@@ -185,7 +185,7 @@ def phraseCheck():
      if commandDone == False:
           weatherMatch = False
           locationMatch = False
-          owm = pyowm.OWM('ec7e84c838666b3ba623f01cd83f1650')#connects to API
+          owm = pyowm.OWM('Your Unique OWM ID here')#connects to  OWM API
           mgr = owm.weather_manager()
           for i in range(len(weatherPhrases)):
                if weatherPhrases[i] in variable:#Checks if a phrase in weatherPhrases is in the command
